@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Head from 'next/head'
-import Image from 'next/image'
 import { StyledHome } from '../styles/StyledHomePage';
 import { Login } from '../containers/Login';
 import { Main } from '../containers/Main';
