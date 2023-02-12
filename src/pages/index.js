@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Head from 'next/head'
-import Image from 'next/image'
 import { StyledHome } from '../styles/StyledHomePage';
 import { Login } from '../containers/Login';
 import { Main } from '../containers/Main';
@@ -18,8 +17,6 @@ export default function Home() {
         return <Main setComponent={setComponent} />;
       case 'message':
         return <Message setComponent={setComponent} />;
-      case 'gift':
-        // return <GiftScreen setComponent={setComponent} />;
 
       default:
         return <Login setComponent={setComponent} />;
