@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image'
 import { StyledLogin, StyledHeroTitle } from '../../styles/StyledLogin';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 
 export const Login = (props) => {
     const { setComponent } = props;
