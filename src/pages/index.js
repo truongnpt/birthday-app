@@ -17,8 +17,6 @@ export default function Home() {
         return <Main setComponent={setComponent} />;
       case 'message':
         return <Message setComponent={setComponent} />;
-      case 'gift':
-        // return <GiftScreen setComponent={setComponent} />;
 
       default:
         return <Login setComponent={setComponent} />;
